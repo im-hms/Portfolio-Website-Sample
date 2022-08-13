@@ -18,6 +18,6 @@ $query = "insert into projecttable (user, email, project, comment)
 values ('$user', '$email', '$project', '$comment') ";
 
 mysqli_query($con, $query);
-header ('location:index.php');
+header ('location:index.html');
 
 ?>
